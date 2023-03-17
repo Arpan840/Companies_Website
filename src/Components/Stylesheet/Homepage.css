@@ -110,12 +110,14 @@ transform: scale(0.96);
     .section-hero-data {
       top: 60%;
     }
+    
   }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     /* Your styles for iPad Mini in portrait orientation */
     .section-hero-data {
         top: 24%;
       }
+      
   }
   
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -123,17 +125,22 @@ transform: scale(0.96);
     .section-hero-data {
         top: 24%;
       }
+      
   }
   @media only screen and (max-width: 414px) {
     /* styles for iPhone XR or devices with similar screen width */
     .section-hero-data {
         top: 40%;
-  }}
+  }
+ 
+}
   @media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (-webkit-device-pixel-ratio: 4) {
     /* CSS styles for Galaxy S8 go here */
     .section-hero-data {
         top: 60%;
- }}
+ }
+ 
+}
  .heroimg{
   float: right;
  margin-top: 1rem;
@@ -219,4 +226,4 @@ transform: scale(0.96);
       height: 80vh;
     }
   }
-  
+ 

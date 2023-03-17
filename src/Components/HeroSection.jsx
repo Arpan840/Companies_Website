@@ -36,8 +36,8 @@ const HeroSection = () => {
       onSlideChange={() => console.log('slide change')}
       breakpoints={{
         640: {
-          slidesPerView: 1,
-          spaceBetween: 20
+          slidesPerView: 2,
+          spaceBetween: 40
         },
         768: {
           slidesPerView: 2,
