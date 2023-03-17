@@ -1,0 +1,83 @@
+.about-section {
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .about-section.in-view {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .about-image {
+    flex: 1;
+    margin-right: 50px;
+    opacity: 0;
+    transform: translateX(50%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .about-section.in-view .about-image {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-content {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .about-content button {
+    background-color: #007db8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-right: 50px;
+    opacity: 0;
+    transform: translateX(50%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    text-align: center;
+  }
+  .about-section{
+    margin-top: 20%;
+  }
+  @media only screen and (max-width: 380px) {
+    /* CSS rules for devices with a width of 320px or less, such as the iPhone SE */
+    /* You can add your specific styles here */
+    .about-section{
+        margin-top: 84%;
+      }
+  }
+  
