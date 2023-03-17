@@ -7,8 +7,10 @@ function App() {
     <div className="App">
      <Router>
      <Navbar></Navbar>
-     <Homepage></Homepage>
+     
      <Routes>
+      <Route path="/" element={<Homepage></Homepage>}></Route>
+      <Route path="*" element={<Homepage></Homepage>}></Route>
 
      </Routes>
      </Router>
