@@ -22,10 +22,7 @@
     transform: translateX(0);
   }
   
-  .about-image img {
-    max-width: 100%;
-    height: auto;
-  }
+  
   
   .about-content {
     flex: 2;
@@ -80,4 +77,15 @@
         margin-top: 84%;
       }
   }
+  .about{
+    height: 50vh;
+    width: 60vw
+    
+  }
+  @media screen and  (max-width: 800px){
+    .about{
+      height: 180px;
+    }
+  }
+    
   

@@ -2,13 +2,14 @@ html{
     font-size: 90.4%;
     overflow-x: hidden;
 }
+
 h1{
     font-size: 3rem;
     font-weight: 900;
-    color: black;
+   
 }
 h2{
-    color: black;
+    
     font-size: 4.4rem;
     font-weight: 300;
     white-space: normal;
@@ -21,7 +22,7 @@ h3{
 }
 
 p{
-    color: black;
+    
     opacity: 0.7;
     font-size: 1.65rem;
     line-height: 1.5;
@@ -59,6 +60,7 @@ box-shadow: 0 2rem 2rem 0 rgb(132 144 255 / 30%);
 transform: scale(0.96);
 }
 .containerhero {
+  
     position: relative;
     height: 100vh;
     width: 80vw;
@@ -221,9 +223,53 @@ transform: scale(0.96);
     height: 100vh;
   }
   
-  @media (max-width: 576px) {
-    .swiper-container {
-      height: 80vh;
+ 
+  @media screen and (max-width: 800px) {
+    .herotopdata,.heroheading,.heropara {
+      font-size: 20px;
+      margin-top:10px;
+     
+      margin-right: 80px;
+    }
+    .button{
+      margin-left: 6rem;
+      margin-top: 1rem;
+      
+    }
+    .heroimg{
+      height: 10rem;
+      width: 20rem;
+      margin-right: 2rem;
+      margin-right: 1.4rem;
+      margin-top: -5px;
+
+    }
+    .swiper-slide-3{
+      height: 15rem;
+      width: 25rem;
+      margin-right: 3rem;
+      margin-top: 3rem;
+    }
+    .swiper-slide-4{
+      height: 15rem;
+      width: 25rem;
+      margin-right: 2px;
+      margin-top: 3rem;
+
+    }
+    .section-hero-data{
+      margin-top: -150px;
+      
     }
   }
- 
+  @media screen and (max-width: 400px)
+  {
+    .herotopdata,.heroheading,.heropara {
+      font-size: 15px;
+
+    }
+  }
+  .swiper-slide-4{
+    margin-top: 10px;
+  }
+  

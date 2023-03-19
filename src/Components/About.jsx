@@ -26,12 +26,13 @@ const About = () => {
   return (
     <section className='about-section' id='about'>
       <div className='about-image'>
-        <img src='' alt='Company' />
+        <img className='about' src='https://archello.s3.eu-central-1.amazonaws.com/images/2020/01/20/Ellement-Pilana-Karbid-BoysPlayNice-01.1579517042.1075.jpg' alt='Company' />
       </div>
       <div className='about-content'>
         <h2>About Us</h2>
+       
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere enim non et nemo sit at, consectetur in quasi commodi quam quidem praesentium facilis officiis autem. Voluptatibus consequatur ab harum est asperiores ducimus reiciendis ullam, blanditiis hic quasi beatae cumque nostrum, saepe inventore repellendus. Sit ullam quisquam sunt minus magni quia consectetur quibusdam necessitatibus vel! Dolor provident, doloremque eius iure fuga accusamus, repellendus quam ad pariatur harum repellat consectetur, enim aliquam iste voluptatem aspernatur maxime quibusdam? Molestias id harum neque ut expedita laborum, consequuntur commodi natus quaerat quibusdam voluptatibus deserunt cum ipsum cupiditate explicabo dolor ducimus dolorem porro aperiam qui sed?</p>
-        <button>Learn More</button>
+        
       </div>
     </section>
   );

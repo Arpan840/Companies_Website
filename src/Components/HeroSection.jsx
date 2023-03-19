@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, EffectCoverflow } from 'swiper';
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, EffectCoverflow,Autoplay } from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -14,10 +14,12 @@ const HeroSection = () => {
   return (
    <>
     <Swiper
+    modules={[Autoplay]}
       effect={'coverflow'}
       grabCursor={true}
       centeredSlides={true}
       slidesPerView={'auto'}
+      
       coverflowEffect={{
         rotate: 50,
         stretch: 0,
@@ -28,7 +30,7 @@ const HeroSection = () => {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      autoplay={{ delay: 1000 }}
+      autoplay={true}
       
       loop={true}
       
@@ -46,9 +48,9 @@ const HeroSection = () => {
        }}
     >
       <SwiperSlide>
-        <div className='containerhero'>
+        <div className='containerhero' >
           <div className='section-hero-data'>
-            <img className='heroimg' src="https://media.istockphoto.com/photos/future-artificial-intelligence-robot-and-cyborg-picture-id1202870693?k=20&m=1202870693&s=170667a&w=0&h=bNRQvjlDpHmuse-LTKKeeFyuS85hIrdgj47-tyTNgG0=" alt="heroimage" />
+            <img className='heroimg'  src="https://media.istockphoto.com/photos/future-artificial-intelligence-robot-and-cyborg-picture-id1202870693?k=20&m=1202870693&s=170667a&w=0&h=bNRQvjlDpHmuse-LTKKeeFyuS85hIrdgj47-tyTNgG0=" alt="heroimage" />
             <p className='herotopdata' >Lorem, ipsum dolor.</p>
             <h1 className="heroheading"  >Lorem, ipsum.</h1>
             <p className="heropara"  >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, inventore, exercitationem magnam ullam in impedit illo facere labore sequi animi optio corporis non! Ullam, maxime animi corrupti accusantium ex eaque.</p>
@@ -59,9 +61,13 @@ const HeroSection = () => {
         </div> 
       </SwiperSlide>
       
-      <SwiperSlide className="swiper-slide-3"><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221212161428/What-is-Digital-Marketing.png" alt="DigitalMarket" /></SwiperSlide>
-      <SwiperSlide className="swiper-slide-4"><img src="https://cyfuture.com/blog/ojycekam/2020/02/Android-vs-iOS-Mobile-App-Development.jpeg" alt="AppDev" /></SwiperSlide>
-      <SwiperSlide className="swiper-slide-4"><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210310114057/web-development-image.png" alt="Ai" /></SwiperSlide>
+      <SwiperSlide  >
+     
+            <img className='swiper-slide-4' width={50}  src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221212161428/What-is-Digital-Marketing.png" alt="DigitalMarket" />
+         
+       </SwiperSlide>
+      <SwiperSlide className="swiper-slide-4" ><img style={{width:"100%"}} className="swiper-slide-4" src="https://cyfuture.com/blog/ojycekam/2020/02/Android-vs-iOS-Mobile-App-Development.jpeg" alt="AppDev" /></SwiperSlide>
+      <SwiperSlide className="swiper-slide-4" ><img style={{width:"100%"}} className="swiper-slide-4" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210310114057/web-development-image.png" alt="Ai" /></SwiperSlide>
     </Swiper>
    </>
   )
