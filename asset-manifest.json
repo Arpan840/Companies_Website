@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/Companies_Website/static/css/main.a582fcc6.css",
-    "main.js": "/Companies_Website/static/js/main.8e86b242.js",
+    "main.css": "/Companies_Website/static/css/main.343e5b1d.css",
+    "main.js": "/Companies_Website/static/js/main.1678fb91.js",
+    "static/media/digitalMarketing.jpg": "/Companies_Website/static/media/digitalMarketing.b984d5aa3dca7fc9d0d6.jpg",
+    "static/media/Artificial-Intelligence.jpg": "/Companies_Website/static/media/Artificial-Intelligence.de0efeb3e393c09086d5.jpg",
+    "static/media/androidIos.jpg": "/Companies_Website/static/media/androidIos.89d0801d4a0a6f4ea954.jpg",
     "index.html": "/Companies_Website/index.html",
-    "main.a582fcc6.css.map": "/Companies_Website/static/css/main.a582fcc6.css.map",
-    "main.8e86b242.js.map": "/Companies_Website/static/js/main.8e86b242.js.map"
+    "main.343e5b1d.css.map": "/Companies_Website/static/css/main.343e5b1d.css.map",
+    "main.1678fb91.js.map": "/Companies_Website/static/js/main.1678fb91.js.map"
   },
   "entrypoints": [
-    "static/css/main.a582fcc6.css",
-    "static/js/main.8e86b242.js"
+    "static/css/main.343e5b1d.css",
+    "static/js/main.1678fb91.js"
   ]
 }
