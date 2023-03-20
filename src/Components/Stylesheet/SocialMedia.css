@@ -1,0 +1,31 @@
+.mySwiperSocialMedia {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+   
+   
+  }
+  
+  .socialMediaSlide {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .socialMediaimg {
+    display: block;
+   width: 100%;
+  }
+  .SocialMedia{
+    display: flex;
+   
+    justify-content: center;
+    background-color: black;
+    height:70vh;
+    width: 100vw;
+    text-align: center;
+  }
+  .SocialmediaHead{
+    color: white;
+    
+  }
+  

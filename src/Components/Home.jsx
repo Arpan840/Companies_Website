@@ -5,6 +5,7 @@ import About from './About';
 import Contact from './Contact';
 import HeroSection from './HeroSection';
 import Services from './Services';
+import SocialMedia from './SocialMedia';
 import "./Stylesheet/Homepage.css"
 
 
@@ -17,6 +18,7 @@ const Homepage = () => {
         <Services></Services>
        <About ></About>
        <Contact></Contact>
+       <SocialMedia></SocialMedia>
 
       </div>
     </div>

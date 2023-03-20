@@ -27,7 +27,7 @@ const Services = () => {
         
   ]
   return (
-    <div className='services'>
+    <div className='services' id="services">
       <h1>Our Services</h1>
       <Swiper
        modules={[ Pagination,EffectCoverflow,Autoplay]}
